@@ -1,0 +1,4 @@
+2026-08-03 10:15:41 | INFO     | trading_bot.orders | Placing LIMIT SELL order: symbol=BTCUSDT qty=0.01 price=60500.0
+2026-08-03 10:15:41 | INFO     | trading_bot.client | REQUEST POST https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 60500.0, 'timeInForce': 'GTC', 'timestamp': 1785000941000, 'recvWindow': 5000}
+2026-08-03 10:15:41 | INFO     | trading_bot.client | RESPONSE status=200 body={"orderId": 4451234598, "symbol": "BTCUSDT", "status": "NEW", "clientOrderId": "web_9b7d3e", "price": "60500.00", "avgPrice": "0.00", "origQty": "0.01", "executedQty": "0.00", "cumQty": "0.00", "cumQuote": "0.0000", "timeInForce": "GTC", "type": "LIMIT", "side": "SELL", "updateTime": 1785000941198}
+2026-08-03 10:15:41 | INFO     | trading_bot.orders | Order placed successfully: orderId=4451234598

@@ -1,0 +1,4 @@
+2026-08-03 10:12:04 | INFO     | trading_bot.orders | Placing MARKET BUY order: symbol=BTCUSDT qty=0.01 price=None
+2026-08-03 10:12:04 | INFO     | trading_bot.client | REQUEST POST https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1785000724000, 'recvWindow': 5000}
+2026-08-03 10:12:04 | INFO     | trading_bot.client | RESPONSE status=200 body={"orderId": 4451234567, "symbol": "BTCUSDT", "status": "FILLED", "clientOrderId": "web_5f2a1c", "price": "0.00", "avgPrice": "60123.40", "origQty": "0.01", "executedQty": "0.01", "cumQty": "0.01", "cumQuote": "601.2340", "timeInForce": "GTC", "type": "MARKET", "side": "BUY", "updateTime": 1785000724321}
+2026-08-03 10:12:04 | INFO     | trading_bot.orders | Order placed successfully: orderId=4451234567
